@@ -13,7 +13,7 @@ $_POST["Insert Your Message"]. "From: jane@janedoe.com");
     <title>HubGrub</title>
 </head>
 <body>
-    <form method="post" action="submit.php">
+    <form method="post" action="index.php">
         <textarea name="message"></textarea>
         <input type="submit">
         </form>
