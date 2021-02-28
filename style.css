@@ -1,0 +1,109 @@
+html, body, p, div, h2 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+  border-bottom: 1px solid rgba(67, 41, 163, 0.2);
+  height: 44px;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  color: #ff0000;
+  font-family: 'Allerta', sans-serif;
+  margin: 0;
+  font-size: 21px;
+}
+
+.location {
+  border-bottom: 1px solid rgba(67, 41, 163, 0.2);
+  background: #fbfbfc;
+  height: 44px;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.location p {
+  display: block;
+  color: #0070eb;
+  font-size: 12px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.jd-container {
+  border-bottom: 1px solid rgba(67, 41, 163, 0.2);
+  height: 150px;
+  width: 100%;
+  background-image: url(/Users/jdbrewer-hofmann/Development/code/js-practice/hubgrub/IMG_5437.jpeg);
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.jd-container .logo {
+  background: #202020;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  bottom: -20%;
+  right: 5%;
+  -webkit-box-shadow: 0 0 2px rgba(67, 41, 163, 0.2);
+          box-shadow: 0 0 2px rgba(67, 41, 163, 0.2);
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.jd-container .logo span {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 36px;
+  font-family: 'Allerta', sans-serif;
+  font-style: italic;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.jd-description {
+  border-bottom: 1px solid rgba(67, 41, 163, 0.2);
+  padding: 12px;
+}
+
+.jd-description h2 {
+  font-weight: 700;
+  font-size: 22px;
+  padding: 6px 0;
+}
+
+.jd-description p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+}
+
+.jd-description .rating span {
+  font-size: 30px;
+  color: #ffa000;
+}
+/*# sourceMappingURL=style.css.map */
