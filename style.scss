@@ -91,3 +91,54 @@ h1 {
         }
     }
 }
+
+.delivery {
+    @include border();
+    display: flex;
+    padding: 12px;
+    p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 300;
+        align-self: center;
+    }
+}
+
+.form-container{
+    padding: 6px 8px;
+    background: #fbfbfc;
+    form {
+        border: 1px solid rgba(67,41,163,.2);
+        box-shadow: 0 0 2px rgba(67,41,163,.2);
+        padding: 12px 6px;
+        background: #ffffff;
+        border-radius: 3px;
+    }
+    label {
+        font-size: 22px;
+    }
+    textarea {
+        width: calc(100% - 32px);
+        height: 150px;
+        padding: 10px 16px;
+        border-radius: 4px;
+        border: 1px solid #8f8fa1;
+        font-size: 14px;
+    }
+    .price {
+        text-align: right;
+        padding: 6px 0;
+        font-size: 22px;
+    }
+    button {
+        width: 100%;
+        border-radius: 20px;
+        height: 40px;
+        margin: 12px 0;
+        color: #ffffff;
+        background: #ff0000;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        border: none;
+    }
+}
